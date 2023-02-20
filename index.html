@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Творожный Образ Жизни</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Творожный Образ Жизни">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="/fonts/bebasneue-regular-webfont.woff2" crossorigin as="font" type="font/woff2">
+    <link rel="preload" href="/fonts/bebasneue-bold-webfont.woff2" crossorigin as="font" type="font/woff2">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&amp;display=swap">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container">
+            <div class="navbar-container"><a href="/" aria-label="Творожный Образ Жизни"><img class="navbar-brand" src="i/logo.svg" width="146" height="128" alt="Искренне Ваш"></a>
+                <button class="btn btn-light navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Открыть меню"><span class="navbar-toggler-bar"></span><span class="navbar-toggler-bar"></span><span class="navbar-toggler-bar"></span></button>
+                <div class="collapse navbar-collapse" id="navigation">
+                    <div class="navbar-collapse-inner">
+                        <div class="navbar-header d-lg-none"><img class="navbar-brand" src="i/logo.svg" width="146" height="128" alt="Искренне Ваш"></div>
+                        <ul class="navbar-nav" id="menu">
+                            <li class="nav-item" data-menuanchor="quiz"><a class="btn btn-light nav-link" href="#quiz">Насколько ты ТОЖник</a></li>
+                            <li class="nav-item" data-menuanchor="about"><a class="btn btn-light nav-link" href="#about">Что такое ТОЖ?</a></li>
+                            <li class="nav-item" data-menuanchor="move"><a class="btn btn-light nav-link" href="#move">Челендж #творобика</a></li>
+                            <li class="nav-item" data-menuanchor="contacts"><a class="btn btn-light nav-link" href="#contacts">Обратная связь</a></li>
+                        </ul>
+                        <div class="navbar-footer d-lg-none">
+                            <div class="navbar-footer-container">
+                                <div class="footer-main">
+                                    <div class="footer-contacts">Горячая линия службы качества<br><a class="text-nowrap" href="tel:88007700774">8 800 770-07-74</a></div>
+                                    <ul class="footer-links">
+                                        <li class="footer-links-item"><a href="#">Познакомиться с&nbsp;ассортиментом</a></li>
+                                    </ul>
+                                </div>
+                                <div class="footer-side">
+                                    <ul class="footer-socials">
+                                        <li class="footer-socials-item"><a href="#" title="ВКонтакте" aria-label="ВКонтакте"><img src="i/icon-vk.svg" role="img" width="64" height="64" alt="VK"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="main" id="fullpage">
+        <section class="section section--hero" data-anchor="hero">
+            <div class="container">
+                <div class="hero-container">
+                    <div class="hero-image" aria-hidden="true">
+                        <div class="parallax">
+                            <picture data-depth="0.25">
+                                <source srcset="i/hero/packshot-1.avif, i/hero/packshot-1@2x.avif 2x" media="(min-width: 744px)" type="image/avif">
+                                <source srcset="i/hero/packshot-1.webp, i/hero/packshot-1@2x.webp 2x" media="(min-width: 744px)" type="image/webp">
+                                <source srcset="i/hero/packshot-1.png, i/hero/packshot-1@2x.png 2x" media="(min-width: 744px)" type="image/png">
+                                <source srcset="i/hero/packshot-1-sm.avif, i/hero/packshot-1-sm@2x.avif 2x" type="image/avif">
+                                <source srcset="i/hero/packshot-1-sm.webp, i/hero/packshot-1-sm@2x.webp 2x" type="image/webp">
+                                <source srcset="i/hero/packshot-1-sm.png, i/hero/packshot-1-sm@2x.png 2x" type="image/png"><img src="i/hero/packshot-1.png" alt="">
+                            </picture>
+                            <picture data-depth="0.2">
+                                <source srcset="i/hero/packshot-2.avif, i/hero/packshot-2@2x.avif 2x" media="(min-width: 744px)" type="image/avif">
+                                <source srcset="i/hero/packshot-2.webp, i/hero/packshot-2@2x.webp 2x" media="(min-width: 744px)" type="image/webp">
+                                <source srcset="i/hero/packshot-2.png, i/hero/packshot-2@2x.png 2x" media="(min-width: 744px)" type="image/png">
+                                <source srcset="i/hero/packshot-2-sm.avif, i/hero/packshot-2-sm@2x.avif 2x" type="image/avif">
+                                <source srcset="i/hero/packshot-2-sm.webp, i/hero/packshot-2-sm@2x.webp 2x" type="image/webp">
+                                <source srcset="i/hero/packshot-2-sm.png, i/hero/packshot-2-sm@2x.png 2x" type="image/png"><img src="i/hero/packshot-2.png" alt="">
+                            </picture>
+                            <picture data-depth="0.15">
+                                <source srcset="i/hero/packshot-3.avif, i/hero/packshot-3@2x.avif 2x" media="(min-width: 744px)" type="image/avif">
+                                <source srcset="i/hero/packshot-3.webp, i/hero/packshot-3@2x.webp 2x" media="(min-width: 744px)" type="image/webp">
+                                <source srcset="i/hero/packshot-3.png, i/hero/packshot-3@2x.png 2x" media="(min-width: 744px)" type="image/png">
+                                <source srcset="i/hero/packshot-3-sm.avif, i/hero/packshot-3-sm@2x.avif 2x" type="image/avif">
+                                <source srcset="i/hero/packshot-3-sm.webp, i/hero/packshot-3-sm@2x.webp 2x" type="image/webp">
+                                <source srcset="i/hero/packshot-3-sm.png, i/hero/packshot-3-sm@2x.png 2x" type="image/png"><img src="i/hero/packshot-3.png" alt="">
+                            </picture>
+                            <picture data-depth="0.1">
+                                <source srcset="i/hero/packshot-4.avif, i/hero/packshot-4@2x.avif 2x" media="(min-width: 744px)" type="image/avif">
+                                <source srcset="i/hero/packshot-4.webp, i/hero/packshot-4@2x.webp 2x" media="(min-width: 744px)" type="image/webp">
+                                <source srcset="i/hero/packshot-4.png, i/hero/packshot-4@2x.png 2x" media="(min-width: 744px)" type="image/png">
+                                <source srcset="i/hero/packshot-4-sm.avif, i/hero/packshot-4-sm@2x.avif 2x" type="image/avif">
+                                <source srcset="i/hero/packshot-4-sm.webp, i/hero/packshot-4-sm@2x.webp 2x" type="image/webp">
+                                <source srcset="i/hero/packshot-4-sm.png, i/hero/packshot-4-sm@2x.png 2x" type="image/png"><img src="i/hero/packshot-4.png" alt="">
+                            </picture>
+                            <picture data-depth="0.05">
+                                <source srcset="i/hero/packshot-5.avif, i/hero/packshot-5@2x.avif 2x" media="(min-width: 744px)" type="image/avif">
+                                <source srcset="i/hero/packshot-5.webp, i/hero/packshot-5@2x.webp 2x" media="(min-width: 744px)" type="image/webp">
+                                <source srcset="i/hero/packshot-5.png, i/hero/packshot-5@2x.png 2x" media="(min-width: 744px)" type="image/png">
+                                <source srcset="i/hero/packshot-5-sm.avif, i/hero/packshot-5-sm@2x.avif 2x" type="image/avif">
+                                <source srcset="i/hero/packshot-5-sm.webp, i/hero/packshot-5-sm@2x.webp 2x" type="image/webp">
+                                <source srcset="i/hero/packshot-5-sm.png, i/hero/packshot-5-sm@2x.png 2x" type="image/png"><img src="i/hero/packshot-5.png" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="hero-main">
+                        <h1 class="hero-title">
+                            <div><strong>Т</strong><span>ворожный</span></div>
+                            <div><strong>О</strong><span>браз</span></div>
+                            <div><strong>Ж</strong><span>изни</span></div>
+                        </h1>
+                        <div class="section-text hero-text">
+                            <p>Двигайся в&nbsp;ритме ТОЖ!<br>Выбирай активный образ жизни и&nbsp;здоровое питание в&nbsp;удовольствие</p>
+                        </div>
+                        <div class="hero-button">
+                            <button class="btn btn-secondary" type="button" data-scrollto="quiz">Узнай какой ты ТОЖник</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="marquee" aria-hidden="true">
+                <div class="marquee-list"><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt="">
+                </div>
+                <div class="marquee-list"><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="section section--about" data-anchor="about">
+            <div class="container">
+                <div class="about-container row">
+                    <div class="about-image">
+                        <picture>
+                            <source srcset="i/about/about-image.avif, i/about/about-image@2x.avif 2x" media="(min-width: 744px)" type="image/avif">
+                            <source srcset="i/about/about-image.webp, i/about/about-image@2x.webp 2x" media="(min-width: 744px)" type="image/webp">
+                            <source srcset="i/about/about-image.png, i/about/about-image@2x.png 2x" media="(min-width: 744px)" type="image/png">
+                            <source srcset="i/about/about-image-sm.avif, i/about/about-image-sm@2x.avif 2x" type="image/avif">
+                            <source srcset="i/about/about-image-sm.webp, i/about/about-image-sm@2x.webp 2x" type="image/webp">
+                            <source srcset="i/about/about-image-sm.png, i/about/about-image-sm@2x.png 2x" type="image/png"><img src="i/about/about-image.png" width="968" height="868" alt="" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="col-md-6 offset-md-6">
+                        <div class="about-main">
+                            <h2 class="section-title about-title">Что такое ТОЖ?</h2>
+                            <div class="section-text about-text">
+                                <p>Творожный Образ Жизни (ТОЖ)&nbsp;&mdash; тот самый стиль жизни, который ты&nbsp;давно ищешь!</p>
+                                <p>В&nbsp;нём сочетается всё, что мы&nbsp;так любим: вкусная еда, полезный творог &laquo;Искренне Ваш&raquo;, любимый спорт и&nbsp;хорошее настроение!</p>
+                                <p>Главное правило ТОЖа: никаких ограничений&nbsp;&mdash; удовольствие и&nbsp;только</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section--whois" data-anchor="whois">
+            <div class="container">
+                <div class="whois-container row">
+                    <div class="col-md-9 col-lg-6">
+                        <div class="whois-main">
+                            <h2 class="section-title whois-title">Кто такие <span>ТОЖ</span>ники?</h2>
+                            <div class="section-text whois-text">
+                                <p>ТОЖники&nbsp;&mdash; это&nbsp;те, кто умеют смешивать пользу творога и&nbsp;удовольствие от&nbsp;еды в&nbsp;одной тарелке, добавлять капельку кухонной аэробики и&nbsp;подавать всё это к&nbsp;столу!</p>
+                                <p>Хочешь стать ТОЖником?<br>Записывай, что тебе для этого понадобится:</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="whois-image-wrapper">
+                            <div class="whois-image">
+                                <picture>
+                                    <source srcset="i/whois/whois-image.avif, i/whois/whois-image@2x.avif 2x" media="(min-width: 744px)" type="image/avif">
+                                    <source srcset="i/whois/whois-image.webp, i/whois/whois-image@2x.webp 2x" media="(min-width: 744px)" type="image/webp">
+                                    <source srcset="i/whois/whois-image.png, i/whois/whois-image@2x.png 2x" media="(min-width: 744px)" type="image/png">
+                                    <source srcset="i/whois/whois-image-sm.avif, i/whois/whois-image-sm@2x.avif 2x" type="image/avif">
+                                    <source srcset="i/whois/whois-image-sm.webp, i/whois/whois-image-sm@2x.webp 2x" type="image/webp">
+                                    <source srcset="i/whois/whois-image-sm.png, i/whois/whois-image-sm@2x.png 2x" type="image/png"><img src="i/whois/whois-image.png" width="536" height="488" alt="" loading="lazy">
+                                </picture>
+                                <div class="whois-image__tip whois-image__tip--1">Хорошее настроение</div>
+                                <div class="whois-image__tip whois-image__tip--2">Спорт в&nbsp;удовольствие</div>
+                                <div class="whois-image__tip whois-image__tip--3">Творог «Искренне Ваш»</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section--move" data-anchor="move">
+            <div class="container">
+                <div class="move-container row">
+                    <div class="col-lg-4">
+                        <div class="move-main">
+                            <h2 class="section-title move-title">Двигайся в&nbsp;ритме <span>ТОЖ</span></h2>
+                            <div class="section-text move-text row">
+                                <div class="col-md-6 col-lg-12">
+                                    <p>Если ты&nbsp;всё ещё думаешь, что готовить и&nbsp;заниматься спортом одновременно невозможно, то&nbsp;спешим доказать обратное!</p>
+                                </div>
+                                <div class="col-md-6 col-lg-12">
+                                    <p>Вдохновляйся примером наших героев из&nbsp;ролика&nbsp;&mdash; бери творог &laquo;Искренне Ваш&raquo; в&nbsp;руки и&nbsp;занимайся кухонной аэробикой вместе с&nbsp;ними!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 offset-lg-1">
+                        <div class="move-video">
+                            <div class="video-container ratio ratio-16x9">
+                                <div class="video-play" aria-hidden="true">
+                                    <svg class="icon icon-play" fill="currentColor" role="img" aria-hidden="true" focusable="false" width="29" height="31">
+                                        <use xlink:href="i/sprites/sprite.svg#play"></use>
+                                    </svg>
+                                </div><a class="glightbox" href="https://vk.com/video_ext.php?oid=-149500863&amp;id=456242083&amp;hash=4192439382db640a&amp;hd=1" data-width="640px" data-height="360px" data-gallery="releases" aria-title="Смотреть видео">
+                                    <picture>
+                                        <source srcset="i/move/video-preview.avif, i/move/video-preview@2x.avif 2x" type="image/avif">
+                                        <source srcset="i/move/video-preview.webp, i/move/video-preview@2x.webp 2x" type="image/webp">
+                                        <source srcset="i/move/video-preview.jpg, i/move/video-preview@2x.jpg 2x" type="image/jpeg"><img src="i/move/video-preview.png" width="704" height="399" alt="" loading="lazy">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="marquee" aria-hidden="true">
+            <div class="marquee-list"><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt="">
+            </div>
+            <div class="marquee-list"><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt=""><img class="marquee-item" src="i/toj.svg" role="img" alt="">
+            </div>
+        </div>
+        <section class="section section--quiz" data-anchor="quiz">
+            <div class="slide" data-anchor="start">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-lg-6">
+                            <h2 class="section-title quiz-title">Узнай, насколько<br>ты <span>ТОЖ</span>ник</h2>
+                        </div>
+                    </div>
+                    <div class="quiz-container row">
+                        <div class="col-md-6">
+                            <div class="quiz-main">
+                                <div class="section-text quiz-text">
+                                    <p>Хочешь узнать, насколько ты&nbsp;соответствуешь критериям настоящего ТОЖника?</p>
+                                    <p>Определить твой уровень ТОЖа поможет наш ТОЖный тест, а&nbsp;ещё он&nbsp;точно поднимет настроение всем, кто его пройдёт!</p>
+                                    <div class="quiz-image d-md-none">
+                                        <picture>
+                                            <source srcset="i/quiz/quiz-image-sm.avif, i/quiz/quiz-image-sm@2x.avif 2x" type="image/avif">
+                                            <source srcset="i/quiz/quiz-image-sm.webp, i/quiz/quiz-image-sm@2x.webp 2x" type="image/webp">
+                                            <source srcset="i/quiz/quiz-image-sm.png, i/quiz/quiz-image-sm@2x.png 2x" type="image/png"><img src="i/quiz/quiz-image-sm.png" width="298" height="311" alt="" loading="lazy">
+                                        </picture>
+                                    </div>
+                                    <p>Тебе нужно просто расслабиться, ответить на&nbsp;вопросы и&nbsp;получить удовольствие.</p>
+                                    <p>Выиграй призы за&nbsp;прохождение теста&nbsp;&mdash; пройди его в&nbsp;нашем чат-боте и&nbsp;участвуй в&nbsp;розыгрыше денежных сертификатов OZON!</p>
+                                    <p>Ну&nbsp;что, начнём?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-none d-md-block">
+                            <div class="quiz-image">
+                                <picture>
+                                    <source srcset="i/quiz/quiz-image.avif, i/quiz/quiz-image@2x.avif 2x" type="image/avif">
+                                    <source srcset="i/quiz/quiz-image.webp, i/quiz/quiz-image@2x.webp 2x" type="image/webp">
+                                    <source srcset="i/quiz/quiz-image.png, i/quiz/quiz-image@2x.png 2x" type="image/png"><img src="i/quiz/quiz-image.png" width="542" height="565" alt="" loading="lazy">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quiz-links">
+                        <div class="quiz-links-item">
+                            <div class="quiz-links-item__title text-nowrap">Тест в чат-боте</div>
+                            <div class="quiz-links-item__label">
+                                <svg class="icon icon-arrow-down" fill="currentColor" role="img" aria-hidden="true" focusable="false" width="11" height="16">
+                                    <use xlink:href="i/sprites/sprite.svg#arrow-down"></use>
+                                </svg><span>Выбери удобный мессенджер</span>
+                            </div>
+                            <div class="quiz-links-item__buttons">
+                                <div><a class="btn btn-secondary btn-iconed" href="#" target="_blank"><span>Тест в Telegram</span>
+                                        <svg class="icon icon-telegram-sm" fill="currentColor" role="img" aria-hidden="true" focusable="false" width="17" height="14">
+                                            <use xlink:href="i/sprites/sprite.svg#telegram-sm"></use>
+                                        </svg></a></div>
+                                <div><a class="btn btn-secondary btn-iconed" href="#" target="_blank"><span>Тест в VK</span>
+                                        <svg class="icon icon-vk-sm" fill="currentColor" role="img" aria-hidden="true" focusable="false" width="17" height="12">
+                                            <use xlink:href="i/sprites/sprite.svg#vk-sm"></use>
+                                        </svg></a></div>
+                            </div>
+                        </div>
+                        <div class="quiz-links-item">
+                            <div class="quiz-links-item__buttons">
+                                <div>
+                                    <button class="btn btn-secondary btn-quiz" type="button">Тест на сайте</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" data-anchor="quiz">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-lg-6">
+                            <h2 class="section-title quizz-title">Узнай, насколько<br>ты <span>ТОЖ</span>ник</h2>
+                        </div>
+                    </div>
+                    <div class="quizz-container row">
+                        <div class="col-md-7 col-lg-5">
+                            <div class="quizz-main">
+                                <div class="quizz-slider swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="quizz-item swiper-slide">
+                                            <div class="quizz-subtitle">Признавайся, ты занимаешься спортом на&nbsp;кухне во&nbsp;время готовки?</div>
+                                            <ul class="quizz-vars">
+                                                <li class="quizz-vars-item">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="quiz-question-1" id="quiz-question-1-var-1">
+                                                        <label class="form-check-label" for="quiz-question-1-var-1">Да, я даже сейчас это делаю</label>
+                                                    </div>
+                                                </li>
+                                                <li class="quizz-vars-item">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="quiz-question-1" id="quiz-question-1-var-2">
+                                                        <label class="form-check-label" for="quiz-question-1-var-2">Нет, я выполняю только приседания на&nbsp;стул</label>
+                                                    </div>
+                                                </li>
+                                                <li class="quizz-vars-item">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="quiz-question-1" id="quiz-question-1-var-3">
+                                                        <label class="form-check-label" for="quiz-question-1-var-3">Раз, два, три, четыре&nbsp;— занимаюсь спортом не&nbsp;в&nbsp;квартире!</label>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="quizz-item swiper-slide">
+                                            <div class="quizz-subtitle">Признавайся, ты занимаешься спортом на&nbsp;кухне во&nbsp;время готовки?</div>
+                                            <ul class="quizz-vars">
+                                                <li class="quizz-vars-item">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="quiz-question-2" id="quiz-question-2-var-1">
+                                                        <label class="form-check-label" for="quiz-question-2-var-1">Да, я даже сейчас это делаю</label>
+                                                    </div>
+                                                </li>
+                                                <li class="quizz-vars-item">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="quiz-question-2" id="quiz-question-2-var-2">
+                                                        <label class="form-check-label" for="quiz-question-2-var-2">Нет, я выполняю только приседания на&nbsp;стул</label>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="quizz-item swiper-slide">
+                                            <div class="quizz-subtitle">Признавайся, ты занимаешься спортом на&nbsp;кухне во&nbsp;время готовки?</div>
+                                            <ul class="quizz-vars">
+                                                <li class="quizz-vars-item">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="quiz-question-3" id="quiz-question-3-var-1">
+                                                        <label class="form-check-label" for="quiz-question-3-var-1">Да, я даже сейчас это делаю</label>
+                                                    </div>
+                                                </li>
+                                                <li class="quizz-vars-item">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="quiz-question-3" id="quiz-question-3-var-2">
+                                                        <label class="form-check-label" for="quiz-question-3-var-2">Нет, я выполняю только приседания на&nbsp;стул</label>
+                                                    </div>
+                                                </li>
+                                                <li class="quizz-vars-item">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="quiz-question-3" id="quiz-question-3-var-3">
+                                                        <label class="form-check-label" for="quiz-question-3-var-3">Раз, два, три, четыре&nbsp;— занимаюсь спортом не&nbsp;в&nbsp;квартире!</label>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="quizz-item swiper-slide">
+                                            <div class="quizz-subtitle">Признавайся, ты занимаешься спортом на&nbsp;кухне во&nbsp;время готовки?</div>
+                                            <ul class="quizz-vars">
+                                                <li class="quizz-vars-item">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="quiz-question-4" id="quiz-question-4-var-1">
+                                                        <label class="form-check-label" for="quiz-question-4-var-1">Да, я даже сейчас это делаю</label>
+                                                    </div>
+                                                </li>
+                                                <li class="quizz-vars-item">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="quiz-question-4" id="quiz-question-4-var-2">
+                                                        <label class="form-check-label" for="quiz-question-4-var-2">Нет, я выполняю только приседания на&nbsp;стул</label>
+                                                    </div>
+                                                </li>
+                                                <li class="quizz-vars-item">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="quiz-question-4" id="quiz-question-4-var-3">
+                                                        <label class="form-check-label" for="quiz-question-4-var-3">Раз, два, три, четыре&nbsp;— занимаюсь спортом не&nbsp;в&nbsp;квартире!</label>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="quizz-pages swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="quizz-progress-wrapper col-md-5 offset-lg-2">
+                            <div class="quizz-progress">
+                                <div class="quizz-progress__decor">
+                                    <picture>
+                                        <source srcset="i/quizz/progress-cheese.webp, i/quizz/progress-cheese@2x.webp 2x" type="image/webp">
+                                        <source srcset="i/quizz/progress-cheese.png, i/quizz/progress-cheese@2x.png 2x" type="image/png"><img src="i/quizz/progress-cheese.png" width="148" height="163" alt="" loading="lazy" aria-hidden="true">
+                                    </picture>
+                                </div><svg xmlns="http://www.w3.org/2000/svg" class="progress" width="380" height="380" viewBox="0 0 380 380">
+                                    <circle class="track" cx="190" cy="190" r="161.5" fill="none" stroke="#ADEBFF" stroke-width="57" />
+                                    <circle class="bar" cx="190" cy="190" r="161.5" fill="none" stroke="#F0758A" stroke-width="57" stroke-linecap="round" />
+                                    <path class="arrow" fill="#000" d="M350.086 204.553c.78.78 2.046.78 2.826 0l12.718-12.719a2 2 0 0 0-2.826-2.827L351.5 200.313l-11.305-11.306a1.999 1.999 0 1 0-2.827 2.827l12.719 12.719Zm-.586-29.691v28.278h3.997v-28.278H349.5Z" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" data-anchor="results">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-lg-6">
+                            <h2 class="section-title quizz-title">Узнай, насколько<br>ты <span>ТОЖ</span>ник</h2>
+                        </div>
+                    </div>
+                    <div class="quizz-container row">
+                        <div class="col-md-6 col-xl-5">
+                            <div class="quizz-main">
+                                <div class="quizz-subtitle">Мы определили, какой ты ТОЖник…</div>
+                                <div class="quizz-result d-md-none">
+                                    <picture>
+                                        <source srcset="i/quizz/result-25-sm.avif, i/quizz/result-25-sm@2x.avif 2x" type="image/avif">
+                                        <source srcset="i/quizz/result-25-sm.webp, i/quizz/result-25-sm@2x.webp 2x" type="image/webp">
+                                        <source srcset="i/quizz/result-25-sm.png, i/quizz/result-25-sm@2x.png 2x" type="image/png"><img src="i/quizz/result-25-sm.png" alt="" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="quizz-text section-text">
+                                    <p><span class="text-uppercase text-larger">Ты ТОЖник на&nbsp;25%</span></p>
+                                    <p>Оу, тебе явно пора взять себя и&nbsp;творог в&nbsp;руки и&nbsp;присоединиться к&nbsp;ТОЖу! Для начала подойдёт «Искренне ваш» 5%!</p>
+                                    <p>Сохрани результат в&nbsp;чат-боте и&nbsp;участвуй в&nbsp;розыгрыше призов!</p>
+                                </div>
+                                <div class="quizz-buttons">
+                                    <div><a class="btn btn-secondary btn-iconed" href="#" target="_blank"><span>Сохранить в Telegram</span>
+                                            <svg class="icon icon-telegram-sm" fill="currentColor" role="img" aria-hidden="true" focusable="false" width="17" height="14">
+                                                <use xlink:href="i/sprites/sprite.svg#telegram-sm"></use>
+                                            </svg></a></div>
+                                    <div><a class="btn btn-secondary btn-iconed" href="#" target="_blank"><span>Сохранить в VK</span>
+                                            <svg class="icon icon-vk-sm" fill="currentColor" role="img" aria-hidden="true" focusable="false" width="17" height="12">
+                                                <use xlink:href="i/sprites/sprite.svg#vk-sm"></use>
+                                            </svg></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 offset-md-1 offset-xl-2 d-none d-md-block">
+                            <div class="quizz-result-wrapper">
+                                <div class="quizz-result">
+                                    <picture>
+                                        <source srcset="i/quizz/result-25.avif, i/quizz/result-25@2x.avif 2x" type="image/avif">
+                                        <source srcset="i/quizz/result-25.webp, i/quizz/result-25@2x.webp 2x" type="image/webp">
+                                        <source srcset="i/quizz/result-25.png, i/quizz/result-25@2x.png 2x" type="image/png"><img src="i/quizz/result-25.png" alt="" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section--more" data-anchor="more">
+            <div class="container">
+                <div class="more-container">
+                    <h2 class="section-title more-title">Ещё больше <span>ТОЖ</span>а</h2>
+                    <div class="more-main row">
+                        <div class="col-md-4">
+                            <div class="more-item">
+                                <h3 class="more-item__title"><span>ТОЖ</span>ное питание</h3>
+                                <div class="more-item__text section-text">
+                                    <p>Вкусное и&nbsp;сбалансированное питание&nbsp;&mdash; главный спутник ТОЖа. Очень важно помнить о&nbsp;количестве полезных микроэлементов в&nbsp;вашем организме, например, кальция и&nbsp;белка.</p>
+                                    <p>Найти их&nbsp;можно в&nbsp;твороге &laquo;Искренне Ваш&raquo; и&nbsp;в&nbsp;разнообразных блюдах, которые можно из&nbsp;него приготовить.</p>
+                                    <p>Включай фантазию и&nbsp;твори ТОЖную вкуснотищу!</p>
+                                </div>
+                                <div class="more-item__button">
+                                    <button class="btn btn-secondary" type="button">Попробовать ТОЖ на вкус</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="more-item">
+                                <h3 class="more-item__title"><span>ТОЖ</span>ный спорт</h3>
+                                <div class="more-item__text section-text">
+                                    <p>Спорт&nbsp;&mdash; это трудно? Кажется, ты&nbsp;занимаешься не&nbsp;тем спортом.</p>
+                                    <p>ТОЖный спорт&nbsp;&mdash; это лёгкие и&nbsp;позитивные тренировки, которые можно выполнять где угодно: дома, в&nbsp;офисе или даже на&nbsp;кухне!</p>
+                                    <p>Хочешь попробовать?</p>
+                                    <p>Используй все пачки творога <span class="text-nowrap">&laquo;Искренне Ваш&raquo;</span>, чтобы повысить нагрузку!</p>
+                                </div>
+                                <div class="more-item__button">
+                                    <button class="btn btn-secondary" type="button" data-scrollto="move">Заняться активным ТОЖем</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="more-item">
+                                <h3 class="more-item__title"><span>ТОЖ</span>ное настроение</h3>
+                                <div class="more-item__text section-text">
+                                    <p>Что это у&nbsp;нас с&nbsp;настроением?</p>
+                                    <p>Оу, видим что ты&nbsp;в&nbsp;хорошем расположении духа! Конечно, ведь ТОЖ&nbsp;&mdash; это лёгкость и&nbsp;позитив, которые можно найти в&nbsp;ежедневных занятиях.</p>
+                                    <p>Готовь вкусные блюда, занимайся аэробикой под любимые песни и&nbsp;получай удовольствие от&nbsp;жизни! А&nbsp;мы&nbsp;тебя ТОЖе поддержим!</p>
+                                </div>
+                                <div class="more-item__button">
+                                    <button class="btn btn-secondary" type="button" data-scrollto="move">Создать ТОЖное настроение</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="section section--footer fp-auto-height" data-anchor="contacts">
+            <div class="container">
+                <div class="footer-container">
+                    <div class="footer-main">
+                        <div class="footer-contacts">
+                            <p>Почта для обратной связи <a class="text-uppercase" href="#">mail@mail.ru</a></p>
+                            <p>Горячая линия службы качества<br class="d-lg-none"> <a class="text-nowrap" href="tel:88007700774">8 800 770-07-74</a></p>
+                        </div>
+                    </div>
+                    <div class="footer-side">
+                        <ul class="footer-socials">
+                            <li class="footer-socials-item"><a href="#" title="ВКонтакте" aria-label="ВКонтакте" target="_blank"><img src="i/icon-vk.svg" role="img" width="64" height="64" alt="VK"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <button class="btn btn-light btn-scroll d-none d-lg-block" type="button" aria-label="Перейти к следующему блоку">
+        <svg class="icon icon-arrow-down" fill="currentColor" role="img" aria-hidden="true" focusable="false" width="9" height="13">
+            <use xlink:href="i/sprites/sprite.svg#arrow-down"></use>
+        </svg><span class="btn-scroll__text">Двигайся<br>дальше</span>
+    </button>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
